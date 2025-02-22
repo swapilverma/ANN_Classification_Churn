@@ -4,6 +4,9 @@
 
 This repository contains an **Artificial Neural Network (ANN)** model designed to predict whether a customer is likely to churn based on various features. The dataset includes customers from **France, Germany, and Spain**, and categorical variables are encoded before training the model.  
 
+Additionally, a **Streamlit app (`app.py`)** is included to visualize customer churn predictions interactively.  
+
+
 ---
 
 ## 📂 Project Overview  
@@ -29,6 +32,17 @@ model = Sequential([
     Dense(1, activation='sigmoid')  # Output Layer
 ])
 ```
+
+## 🛠️ Tools and Libraries Used
+#### 📌 Programming Language
+ - Python
+#### 📌 Libraries
+- TensorFlow & Keras - Model building
+- Pandas - Data manipulation
+- NumPy - Numerical computations
+- Scikit-learn - Data preprocessing
+- Matplotlib & Seaborn - Data visualization
+- Streamlit - Web-based visualization
 
 ## 📈 Model Performance
 - **Training Accuracy:** 87.25%

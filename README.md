@@ -48,6 +48,10 @@ model = Sequential([
 - **Training Accuracy:** 87.25%
 - **Validation Accuracy:** 85.35%
 
+## Streamlit Interface 
+![image](https://github.com/user-attachments/assets/620f52d3-69d9-4cdb-bae9-780d8a75572d)
+
+
 ## 🚀 How to Use
 
 git clone https://github.com/swapilverma/ANN_Classification_Churn.git
